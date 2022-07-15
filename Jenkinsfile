@@ -1,7 +1,7 @@
 pipeline{
   agent any
     environment {
-	  sonar_url = 'http://3.110.118.169:9000'
+	  sonar_url = 'http://13.234.186.74:9000/'
 	  sonar_admin = 'admin'
 	  sonar_password = 'admin'
 	}  
