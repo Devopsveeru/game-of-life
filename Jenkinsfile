@@ -1,9 +1,9 @@
 pipeline{
   agent any
     environment {
-	  sonar_url = 'http://13.234.186.74:9000/'
+	  sonar_url = 'http://43.204.227.198:9000/'
 	  sonar_admin = 'admin'
-	  sonar_password = 'admin'
+	  sonar_password = 'admin@123'
 	}  
   stages{
      stage("Maven Build"){
